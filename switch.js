@@ -2,16 +2,16 @@ let month = "February";
 
 
 switch (month) {
-    case "Spring":
+    case "April":
         console.log("Flower Power");
 
         break;
-        case "Summer":
+        case "July":
         console.log("C'est l'été!");
 
         break;
-        case "Autumn":
-        console.log("Orange");
+        case "September":
+        console.log("Autumn");
 
         break;
         case "January", "February":
