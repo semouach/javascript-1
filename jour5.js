@@ -42,3 +42,29 @@
 // let ext = require("./external.js");
 
 // console.log(ext);
+let prompt = require("prompt");
+
+prompt.start();
+
+let mysteryNum = Math.floor(Math.random()* (100 - 1 + 1)+ 1);
+
+function play(num){
+
+    prompt.get(["Entrez un nombre"])
+
+    if(num == mysteryNum){
+        console.log("error")
+    } else if (num < mysteryNum ){
+        console.log("C'est plus!")
+    } else if (num > mysteryNum){
+        console.log("C'est moins!")
+    } else if (num === mysteryNum){
+        console.log("Bravo!")
+    }
+
+    }
+    play()
+
+    
+
+    
