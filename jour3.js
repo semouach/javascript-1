@@ -131,12 +131,25 @@
 // console.log(`Cela fait ${count} que le dé a été lancé`)
 
 // let numbers = [];
-// let somme = 0;
+// let somme = null;
 
 // for (i=0; i<50; i++){
-// numbers.push(Math.floor(Math.random()*100))
+// numbers.push(Math.floor(Math.random()*100));
     
 // }
-// console.table(numbers)
+// console.table(numbers);
 
-// for ()
+
+// console.log(numbers.reduce((a,b) => a+b));
+
+// for(i=0;i<50;i++){
+//     somme += numbers[i]
+// }
+
+// let words = ["hello", "goodbye", "yes", "no", "stop", "go go go"]
+// let letter = words.split()
+// for (i=0;i<words.length; i++ ){
+   
+// }
+
+// console.log(letter)
