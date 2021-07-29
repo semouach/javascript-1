@@ -58,13 +58,6 @@
 // return compare(num1, num2)
 
 
-// function addUp(num){
-
-//     for(i=1;i <= num;i++){
-//      return addUp(12)
-//     }
-
-// }
 
 
 // function format(num) {
@@ -93,28 +86,93 @@
 
 
 // function launchDice(numberOfDice) {
-//     for (i = 1; i <= numberOfDice; i++) {
+//     for (let i = 1; i <= numberOfDice; i++) {
         
-//         return (Math.floor(Math.random() * (6 - 1 + 1) + 1));
-      
+//         console.log(Math.floor(Math.random() * (6 - 1 + 1) + 1));
+//         joueur1 =+ i
+//     joueur2 =+ i
 //     }
+
     
 
+//     if (joueur1<joueur2){
+//         console.log("joueur2 win!")
+//     } else if (joueur2 < joueur1) {
+//         console.log("joueur1 win!")
+//     } else {
+//         console.log("egalité!")
+//     }
+
+    
 // }
 
-// joueur1 =5
-// joueur2 =5
 
-// if (launchDice(joueur1)<launchDice (joueur2)){
-//     console.log("joueur2 win!")
-// } else if (launchDice(joueur2) < launchDice(joueur1)) {
-//     console.log("joueur1 win!")
-// } else {
-//     console.log("egalité!")
-// }
+
+
+
+// launchDice(5)
+// launchDice(5)
      
+// function formatDate(string){
+// let date = new Date();
+// console.log(date.getDate(), date.getMonth(),date.getFullYear())
 
 
+// }
 
 
+// formatDate()
 
+
+function calculateAge(date){
+   result = (2021 - date)
+    console.log(result)
+}
+
+
+calculateAge(35)
+
+
+// let prompt = require("prompt");
+
+// let schema = {
+//     properties: {
+        
+//         email:{
+//             description: "Entrez votre mail...",
+//             pattern: /\@/,
+//             requiered: true,
+//             message: "Entrez une email valide",
+//             },
+//         username: {
+//             description: "Entrez votre username...",
+//             pattern: /[a-z0-9]+\-*/gi,
+//             required: true,
+//             message: "Entrez un username valide",
+//         } ,
+
+//         password: {
+//             description: "Entrez votre MDP...",
+//             pattern:  /[a-z0-9]{6,}\-*/gi,
+//             required: true,
+//             message: "Entrez un MDP valide",
+//         }
+// }
+// }
+
+// function chekProfile(){
+//     prompt.get(schema, (err,result) => {
+//         if (result !==){
+//             console.log("error")
+//         } else {
+//             console.log("All good!")
+//         }
+//     }
+    
+    
+
+//     )
+// }
+
+// prompt.start();
+// chekProfile()
